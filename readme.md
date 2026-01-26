@@ -26,7 +26,9 @@ Chrome 49.0.2623.112 (and 34.0.1847.137 for no SSE2) is the last Chrome version 
 
 Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
 
-Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows Vista without Extended Kernel and Windows 2000 with Extended Kernel.
+Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows 2000 with Extended Kernel.
+
+Chrome 55.0.28?? Dev / Chrome 54.0.2840.99 - is the last unofficial version to fully run on Windows Vista without Extended Kernel with minor API swaps.
 
 # FREQUENTLY ASKED QUESTIONS
 
