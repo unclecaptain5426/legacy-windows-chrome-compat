@@ -14,7 +14,7 @@ And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial ver
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
- wtsapi32.dll, winsta.dll, imm32.dll, icmp.dll (from 2000 SP4), and iphlpapi.dll from Windows 2000 Extended Kernel.
+ wtsapi32.dll, winsta.dll, imm32.dll from Windows 2000 Extended Kernel.
 
 or otherwise,
 
