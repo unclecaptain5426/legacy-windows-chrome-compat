@@ -10,6 +10,8 @@ Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Wind
  
  wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2000 Extended Kernel. 
 
+Chrome 33-49 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
+
 And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
