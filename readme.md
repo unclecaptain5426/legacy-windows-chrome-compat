@@ -1,6 +1,6 @@
 # COMPATIBILITY
 
-Chrome 5.0.375.17 (Dev) and Chrome 4.1.249.1064 (Stable) are the latest Chrome versions observed to run on Windows Longhorn build 4093 through Windows Vista Beta 2 Build 5342.2, under experimental conditions.
+Chrome 5.0.375.17 (Dev) and Chrome 4.1.249.1064 (Stable) are the latest Chrome versions observed to run on Windows Longhorn build 4093 through Windows Vista Beta 2 Build 5356, under experimental conditions.
 
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
@@ -28,7 +28,7 @@ Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can b
 
 Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows 2000 with Extended Kernel.
 
-Chrome 54.0.2??? Dev / Chrome 53.0.2785.143 - is the last unofficial version to fully run on Windows Vista without Extended Kernel with minor API swaps.
+Chrome 54.0.2??? Dev / Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
 
 # FREQUENTLY ASKED QUESTIONS
 
