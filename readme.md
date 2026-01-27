@@ -70,6 +70,8 @@ Builds Windows Longhorn build 4093 through Windows Vista build 5356 has limited 
 
 # SCREENSHOTS
 
+<img width="1440" height="900" alt="Google Chrome 53 on Windows Vista build 5360!" src="https://github.com/user-attachments/assets/85a4fe8f-95ac-4cda-9c68-bc14538ae039" />
+
 # NOTES
 
 Make sure you have 7-Zip & CFF Explorer installed.
