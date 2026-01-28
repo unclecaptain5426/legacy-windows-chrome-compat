@@ -70,6 +70,22 @@ Builds Windows Longhorn build 4093 through Windows Vista build 5356 has limited 
 
 # SCREENSHOTS
 
+<img width="640" height="400" alt="VirtualBox_vanilla Windows 2000_30_07_2025_18_59_23" src="https://github.com/user-attachments/assets/5daa8ba4-4780-4841-a451-44fc2489a062" />
+
+Google Chrome 32 on Windows 2000 SP4 + without Extended Kernel!
+
+<img width="640" height="400" alt="VirtualBox_Whistler 2410_27_01_2026_23_58_03" src="https://github.com/user-attachments/assets/5000de18-0335-4746-849c-d9c48734abaf" />
+
+Google Chrome 32 on Windows XP build 2410!
+
+<img width="1600" height="900" alt="VirtualBox_vanilla Windows 2000_22_11_2025_00_09_06" src="https://github.com/user-attachments/assets/81b4decb-f1f1-4b58-aeb7-989a92922252" />
+
+Google Chrome 49 on Windows 2000 SP4 + without Extended Kernel! (but it is extremely unstable there, same when using the UURollup v11 package from November 30, 2014)
+
+<img width="640" height="400" alt="VirtualBox_Whistler 2481_26_10_2025_23_22_11" src="https://github.com/user-attachments/assets/bc171f62-19b4-4f26-85a0-9f47040e60a8" />
+
+Google Chrome 49 on Windows XP build 2481!
+
 <img width="640" height="400" alt="Google Chrome 53 on Windows Vista build 5360!" src="https://github.com/user-attachments/assets/85a4fe8f-95ac-4cda-9c68-bc14538ae039" />
 
 Google Chrome 53 on Windows Vista build 5360!
