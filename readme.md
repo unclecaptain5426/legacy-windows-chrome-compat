@@ -80,6 +80,16 @@ Make sure you have 7-Zip & CFF Explorer installed.
 
 If you are on a non-XP SP2 system... make sure you use --no-sandbox command line.
 
+If you are looking for an modern version of Chromium, use the following:
+
+https://github.com/e3kskoy7wqk/Chromium-for-windows-7-REWORK
+
+It can only work at least Windows XP build 2481 unofficially
+
+https://github.com/win32ss/supermium/
+
+It can only work at least Windows XP build 2517 unofficially
+
 # DISCLAIMER
 
 This guide is an unofficial, community-made compatibility guide. It is NOT affiliated with, endorsed, or supported by Google or Microsoft. All product names, trademarks, and copyrights belong to their respective owners. This repository does not contain any proprietary Google binaries. It only documents compatibility behavior on legacy Windows systems.
