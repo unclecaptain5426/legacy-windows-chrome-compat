@@ -80,11 +80,11 @@ Google Chrome 32 on Windows XP build 2410!
 
 Google Chrome 49 on Windows 2000 SP4 + without Extended Kernel! (but it is extremely unstable there, same when using the UURollup v11 package from November 30, 2014)
 
-<img width="640" height="400" alt="VirtualBox_Whistler 2481_26_10_2025_23_22_11" src="https://github.com/user-attachments/assets/bc171f62-19b4-4f26-85a0-9f47040e60a8" />
+<img width="640" height="400" alt="VirtualBox_Windows XP RC 1 Build 2475_13_02_2026_19_23_08" src="https://github.com/user-attachments/assets/2d554406-168d-4170-89db-29707b4ab57e" />
 
 Google Chrome 49 on Windows XP build 2475!
 
-<img width="640" height="400" alt="VirtualBox_Windows XP RC 1 Build 2475_13_02_2026_19_23_08" src="https://github.com/user-attachments/assets/2d554406-168d-4170-89db-29707b4ab57e" />
+<img width="640" height="400" alt="VirtualBox_Whistler 2481_26_10_2025_23_22_11" src="https://github.com/user-attachments/assets/bc171f62-19b4-4f26-85a0-9f47040e60a8" />
 
 Google Chrome 49 on Windows XP build 2481!
 
