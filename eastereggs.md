@@ -6,4 +6,4 @@ This message (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.
 
 Incognito mode in Chromium 49.0.2578.0 (r362228)
 
-Appears from Chromium 49.0.257x.0 (r36xxxx) - Chromium 49.0.2623.0 (r3697xx)
+Appears from Chromium 49.0.2574.0 (r361518) - Chromium 49.0.2623.0 (r369729)
