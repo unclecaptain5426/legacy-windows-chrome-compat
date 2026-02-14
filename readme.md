@@ -12,21 +12,19 @@ Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Wind
 
 Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
 
-And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 by using:
+And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
  wtsapi32.dll, winsta.dll, imm32.dll from Windows 2000 Extended Kernel
 
- for some computers and virutalizers;
-
 or otherwise,
 
 Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 (with API swaps or kernelxp.dll by roytam1) for some computers and virutalizers.
 
-Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-49.0.2623.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
+Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
-Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP build 2475 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
+Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP build 2474 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
 
 Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
 
@@ -62,9 +60,9 @@ Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DL
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
 
-Google Chrome 24 - 49 will not work (but 23 will still partially work, but the address is broken) on Windows XP RTM if Internet Explorer 7 is installed, even if you port a newer version of imm32.dll from XP SP1 or newer to Chrome-bin and/or the version folder.
+If Internet Explorer 7 or 8 is installed on Windows XP RTM, you must have imm32.dll from XP SP3 on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
 
-Firstly, Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds). Secondly, If you use roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo (since it was hardcoded on Chrome 12.0.730 Dev) with something else on kernelxp.dll on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475, it triggers an c0000094 exception. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
+Firstly, Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds). Secondly, on some computers and virtualizers, if you use roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo (since it was hardcoded on Chrome 12.0.730 Dev) with something else on kernelxp.dll on Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475, it triggers an c0000094 exception. However, Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475 does seem to work on some computers and virutalizers, while some of them don't. On the other hand, when using Chrome 33 - 49 on Windows Whistler RC 1 Build 2474 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
 
 Builds Windows Longhorn build 4093 through Windows Vista build 5356 has limited Chrome versions to 4.1.249.1064 Stable and 5.0.375.17 Beta. Chrome 5.0.375.23 Beta and up will not run on Longhorn build 4093 through Vista build 5356 due to the debug.log saying "A device attached to the system is not functioning".
 
@@ -83,6 +81,10 @@ Google Chrome 32 on Windows XP build 2410!
 Google Chrome 49 on Windows 2000 SP4 + without Extended Kernel! (but it is extremely unstable there, same when using the UURollup v11 package from November 30, 2014)
 
 <img width="640" height="400" alt="VirtualBox_Whistler 2481_26_10_2025_23_22_11" src="https://github.com/user-attachments/assets/bc171f62-19b4-4f26-85a0-9f47040e60a8" />
+
+Google Chrome 49 on Windows XP build 2475!
+
+<img width="640" height="400" alt="VirtualBox_Windows XP RC 1 Build 2475_13_02_2026_19_23_08" src="https://github.com/user-attachments/assets/2d554406-168d-4170-89db-29707b4ab57e" />
 
 Google Chrome 49 on Windows XP build 2481!
 
