@@ -158,3 +158,9 @@ This message (as seen in Chrome 27 through 48)
 <img width="525" height="476" alt="Early Chrome 49 builds - Incognito" src="https://github.com/user-attachments/assets/8adb2c32-006d-44d9-b2bd-8f6aa14816b0" />
 
 Incognito mode in Chromium 49.0.2578
+
+# TRIVIA
+
+Did you know...
+
+ ...that "Whoa! Google Chrome (or Chromium) has crashed. Relaunch now?" dialog box has appeared from Chrome 0.2 Beta and kept until early Chrome 49 builds (around early December 2015)?
