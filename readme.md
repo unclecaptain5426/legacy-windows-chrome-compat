@@ -155,6 +155,6 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 This message (as seen in Chrome 27 through 48)
 
-<img width="1050" height="952" alt="Early Chrome 49 builds - Incognito" src="https://github.com/user-attachments/assets/8adb2c32-006d-44d9-b2bd-8f6aa14816b0" />
+<img width="525" height="476" alt="Early Chrome 49 builds - Incognito" src="https://github.com/user-attachments/assets/8adb2c32-006d-44d9-b2bd-8f6aa14816b0" />
 
 Incognito mode in Chromium 49.0.2578
