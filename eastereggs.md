@@ -1,6 +1,6 @@
 # INCOGNITO
 
-<img width="471" height="516" alt="Early Chrome 36 builds - Incognito with new redesign #1 (with Tahoma if on NT 5.x, and Segoe UI if on NT 6.x)"" src="https://github.com/user-attachments/assets/611d460d-1b66-4c26-ac83-5d08af72a74c" />
+<img width="942" height="1032" alt="incognito" src="https://github.com/user-attachments/assets/872f03f9-fed0-4da8-a61a-18f6b0a04ede" />
 
 Incognito mode in Chromium 36.0.1967.0 (r267197)
 
