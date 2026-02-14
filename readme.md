@@ -10,7 +10,7 @@ Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Wind
  
  wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2000 Extended Kernel. 
 
-Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
+ Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
 
 And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
  
@@ -22,13 +22,15 @@ or otherwise,
 
 Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 (with API swaps or kernelxp.dll by roytam1) for some computers and virutalizers.
 
-Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
+ Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
 Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP build 2474 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
 
-Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
+ Chrome 50.0.2661.102 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but it is unstable even if using just Browservice, rather than the core itself.
 
-Chrome 54.0.2??? Dev / Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
+ Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
+
+Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
 
 # FREQUENTLY ASKED QUESTIONS
 
@@ -56,6 +58,10 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 
 5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
 Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DLL, and if attempted to load Chrome 0.3 without wrappers on Windows 2000, the program will crash with "Whoa! Google Chrome has crashed. Restart now?"
+
+6) Why Chrome 51+ is hard-blocked for NT 5.x entirely without excessive patching?
+
+
 
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
@@ -104,9 +110,13 @@ https://github.com/e3kskoy7wqk/Chromium-for-windows-7-REWORK
 
 It can only work at least Windows XP build 2481 unofficially
 
-https://github.com/win32ss/supermium/
+https://github.com/win32ss/supermium
 
 It can only work at least Windows XP build 2517 unofficially
+
+https://github.com/ttalvitie/browservice
+
+If you want the modern web for older Chromium browsers
 
 # DISCLAIMER
 
@@ -116,7 +126,7 @@ All binaries must be obtained by the user from official sources only. This guide
 
 # WORD OF CAUTION
 
-Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only.
+Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only. Using Browservice in a Chrome browser is recommended.
 
 # REFERENCES
 * https://claraincorporated.blogspot.com/2025/12/windows-xp-rtm-in-2026-unofficial-guide.html
@@ -131,8 +141,8 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 * Chrome 5 and newer for builds Windows Longhorn build 4093 through Windows Vista build 5356
 
-* Chrome 6 and newer for Windows Whistler Beta 1 Build 2296 and older
+* Chrome 0.3 and newer for Windows Whistler Beta 1 Build 2296 and older - but the exception is up to Chrome 5.0.375.127 Stable by using advapixp.dll and kernelxp.dll by blackwingcat (with API swaps to the wrapper)
 
-* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older (for some computers and virtualizers) - but the exception for some computers and virtualizers is up to Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable by using kernelxp.dll by blackwingcat (with API swaps to the wrapper)
+* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older (for some computers and virtualizers) - but the exception for some computers and virtualizers is up to Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable by using kernelxp.dll by blackwingcat (with API swaps to the wrapper) - However Chrome 33 through 49 see to work fine on Windows XP RC 1 Build 2474 & 2475, but not on some computers and virtualizers.
 
-* Chrome 33 and newer for Windows 2000 without Extended Kernel
+* Chrome 33 and newer for Windows 2000 without Extended Kernel (with newer wrappers instead of the BWC's wrappers from 2012)
