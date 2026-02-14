@@ -131,9 +131,6 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 # OFF-TOPIC
 
-[Did you know...
-
-
 * https://github.com/unclecaptain5426/legacy-windows-chrome-compat/blob/main/eastereggs.md
 
   Easter Eggs
