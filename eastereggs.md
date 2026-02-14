@@ -1,6 +1,6 @@
 # INCOGNITO
 
-<img width="942" height="1032" alt="incognito" src="https://github.com/user-attachments/assets/872f03f9-fed0-4da8-a61a-18f6b0a04ede" />
+<img width="471" height="516" alt="incognito" src="https://github.com/user-attachments/assets/872f03f9-fed0-4da8-a61a-18f6b0a04ede" />
 
 Incognito mode in Chromium 36.0.1967.0 (r267197)
 
