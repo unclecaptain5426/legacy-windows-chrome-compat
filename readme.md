@@ -10,33 +10,33 @@ Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Wind
  
  wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2000 Extended Kernel. 
 
-Chrome 33-49 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
+Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
 
 And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
- wtsapi32.dll, winsta.dll, imm32.dll from Windows 2000 Extended Kernel.
+ wtsapi32.dll, winsta.dll, imm32.dll from Windows 2000 Extended Kernel
+
+ for some computers and virutalizers;
 
 or otherwise,
 
-Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 (with API swaps).
+Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 (with API swaps or kernelxp.dll by roytam1) for some computers and virutalizers.
 
 Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-49.0.2623.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
-Chrome 49.0.2623.112 (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows XP build 2481 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
+Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP build 2475 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
 
 Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
-
-Chrome 51.0.26?? Dev / Chrome 50.0.2664.102 - is the last unofficial version to fully run on Windows 2000 with Extended Kernel.
 
 Chrome 54.0.2??? Dev / Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
 
 # FREQUENTLY ASKED QUESTIONS
 
-1) Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo?
+1) Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo for some computers and virutalizers?
 
-Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below). Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094).
+Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below) for some computers and virutalizers. Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094) for some computers and virutalizers.
 
 2) Why Chrome 23-32 require any additional DLLs for Windows 2000 without Extended Kernel / and Chrome 23-49 requires any additional files for Windows XP RTM? ===
 
@@ -131,6 +131,6 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 * Chrome 6 and newer for Windows Whistler Beta 1 Build 2296 and older
 
-* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older 
+* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older (for some computers and virtualizers) - but the exception for some computers and virtualizers is up to Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable by using kernelxp.dll by blackwingcat (with API swaps to the wrapper)
 
 * Chrome 33 and newer for Windows 2000 without Extended Kernel
