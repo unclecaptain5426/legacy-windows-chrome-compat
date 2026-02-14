@@ -148,3 +148,13 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 * Chrome 12 and newer for Windows XP RC 1 Build 2475 and older (for some computers and virtualizers) - but the exception for some computers and virtualizers is up to Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable by using kernelxp.dll by blackwingcat (with API swaps to the wrapper) - However Chrome 33 through 49 see to work fine on Windows XP RC 1 Build 2474 & 2475, but not on some computers and virtualizers.
 
 * Chrome 33 and newer for Windows 2000 without Extended Kernel (with newer wrappers instead of the BWC's wrappers from 2012)
+
+# EASTER EGGS
+
+<img width="561" height="113" alt="Chrome27-48" src="https://github.com/user-attachments/assets/05b1c6d2-b469-4083-ba1c-44502ab3cccd" />
+
+This message (as seen in Chrome 27 through 48)
+
+<img width="1050" height="952" alt="Early Chrome 49 builds - Incognito" src="https://github.com/user-attachments/assets/8adb2c32-006d-44d9-b2bd-8f6aa14816b0" />
+
+Incognito mode in Chromium 49.0.2578
