@@ -24,7 +24,9 @@ Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version
 
  Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
-Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP build 2474 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions.
+Chrome 50.0.2661.102; but 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows 2000 with Extended Kernel and Windows XP SP1 Build 2600.1050 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions. If on Windows XP Pre-RC 2 build 2517 (2517.main.010713-1717) through Windows XP RTM with Updates (xpclnt_qfe.021108-2107), it is recommended to use the files from XP SP1.
+
+ Chrome 49.0.2623.112 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but problems are found that the browser crashes after file downloading on some file extension is complete.
 
  Chrome 50.0.2661.102 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but it is unstable even if using just Browservice, rather than the core itself.
 
