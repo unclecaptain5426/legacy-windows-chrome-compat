@@ -123,8 +123,21 @@ Please do not use an older version of Google Chrome as a daily driver. It must b
 
 * Chrome 33 and newer for Windows 2000 without Extended Kernel (with newer wrappers instead of the BWC's wrappers from 2012)
 
+# EXTRAS
+
+* https://github.com/unclecaptain5426/legacy-windows-chrome-compat/blob/main/gallery.md
+
+  Gallery
+
 # OFF-TOPIC
 
-Did you know...
+[Did you know...
 
- ...that "Whoa! Google Chrome (or Chromium) has crashed. Relaunch now?" dialog box has appeared from Chrome 0.2 Beta and kept until early Chrome 49 builds (around early December 2015)?
+
+* https://github.com/unclecaptain5426/legacy-windows-chrome-compat/blob/main/eastereggs.md
+
+  Easter Eggs
+
+* https://github.com/unclecaptain5426/legacy-windows-chrome-compat/blob/main/trivia.md
+
+  Trivia
