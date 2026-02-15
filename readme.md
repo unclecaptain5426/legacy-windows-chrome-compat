@@ -22,7 +22,7 @@ Google Chrome 6.0.41x and up will not run on Windows 2000 Beta 3 Build 1964 - Wi
 Chrome 33.0.1712.2 Dev or later can launch, but it does not work properly on Windows 2000 SP4 + Update Rollup 1 (without Extended Kernel) when using advapixp.dll, kernelxp.dll, and userxp.dll wrappers by BWC / Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds) due to chrome_elf.dll being stricted.
 
 ## IE7/8 quirk on XP RTM
-### For Chrome 23.0.1255 Dev or later
+### For Chrome 23.0.1255.0 Dev or later
 If Internet Explorer 7 or 8 is installed on Windows XP RTM, if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
 
 # NOTES
