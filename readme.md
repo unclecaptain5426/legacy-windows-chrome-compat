@@ -8,7 +8,7 @@
 
   Compatibility Notes
 
-# BUGS
+# BUGS, QUIRKS, AND KNOWN LIMITATIONS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
 
 If Internet Explorer 7 or 8 is installed on Windows XP RTM, you must have imm32.dll from XP SP3 on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
