@@ -11,7 +11,8 @@ Appears from Chromium 36.0.1967.0 (r267197) - Chromium 49.0.2574.0 (r361485)
 Incognito mode in Chromium 49.0.2578.0 (r362228)
 
 Appears from Chromium 49.0.2574.0 (r361518) - Chromium 49.0.2623.0 (r369729)
-It does resemble the final release (49.0.2623.75), but with Tahoma if on NT 5.x and Segoe UI if on NT 6.x.
+
+It does resemble the final release (49.0.2623.75), but with Tahoma if on NT 5.x and Segoe UI if on NT 6.x. The font in the incognito notice was updated to Roboto in Chromium 49.0.2623.0 (r369747).
 
 # MISCELLANEOUS
 
