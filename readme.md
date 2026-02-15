@@ -19,7 +19,7 @@ Chrome 5.0.375.23 Beta and up will not run on Windows Longhorn build 4093 throug
 Google Chrome 6.0.41x and up will not run on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.D.LL and a function that needs an unofficial for NTDLL.DLL.
 
 ### Chrome 33.0.1707.0 Dev / Chrome 32.0.1700.107 Limitation 
-Chromium 33.0.1709.0 (r234803) or later can launch, but it does not work properly on Windows 2000 SP4 + Update Rollup 1 (without Extended Kernel) when using advapixp.dll, kernelxp.dll, and userxp.dll wrappers by BWC / Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds) due to chrome_elf.dll being stricted.
+Chrome 33.0.1712.2 Dev or later can launch, but it does not work properly on Windows 2000 SP4 + Update Rollup 1 (without Extended Kernel) when using advapixp.dll, kernelxp.dll, and userxp.dll wrappers by BWC / Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds) due to chrome_elf.dll being stricted.
 
 ## IE7/8 quirk on XP RTM
 If Internet Explorer 7 or 8 is installed on Windows XP RTM, if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
