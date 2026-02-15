@@ -8,6 +8,7 @@ Because starting at Chrome 23.0.1255.0 Dev, without any minor modifications like
  ## Chrome 29 - 32
  Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
 
+ ##
  ### EXTRA: Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo for some computers and virutalizers?
 
 Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below) for some computers and virutalizers. Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094) for some computers and virutalizers.
