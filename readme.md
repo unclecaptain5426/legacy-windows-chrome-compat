@@ -36,37 +36,6 @@ If on Windows 2000 with Extended Kernel, ensure you have InitOnce functions enab
 
 Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
 
-# FREQUENTLY ASKED QUESTIONS
-
-1) Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo for some computers and virutalizers?
-
-Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below) for some computers and virutalizers. Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094) for some computers and virutalizers.
-
-2) Why Chrome 23-32 require any additional DLLs for Windows 2000 without Extended Kernel / and Chrome 23-49 requires any additional files for Windows XP RTM? ===
-
-Because starting at Chrome 23.0.1255.0 Dev, without any minor modifications like these files for Windows XP RTM/2000 SP4 without KernelEx, Chrome starts to lose functionally for the address bar due to imm32.dll and msftedit.dll changes, and by Chrome 24, Chrome will not start on Windows XP RTM/2000 SP4 without KernelEx without minor modifications. Therefore, on Windows XP RTM.
-
-2.1) For Chrome 24-28...You must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work (for Windows 2000)
-
-2.2) For Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
-   
-3) Why chrome_elf.dll does not like Windows XP RTM/2000 SP4?
-
-Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally for Windows 2000 SP4 without Extended Kernel, due to chrome_elf.dll being introduced, while it is  still unofficially possible to get it to work on Windows 2000 SP4 without Extended Kernel, but even with normal use after the timeout (up to 60 seconds), it will freeze. So, because later versions (like Chrome 33.0.1712.2 Dev - Chrome 49.0.2623.112) require at least Microsoft Windows XP build 2481 (but Microsoft Windows XP build 2517 or later is recommended especially to get it fully working is by swapping the ntdll.dll with the one from Microsoft Windows XP SP1, and with just using kernelxp.dll wrappers unofficially + additional XP SP3 DLLs (such as iphlpapi.dll, icmp.dll, imm32.dll (if on 2481-2509, then its from Windows 2000 Extended Kernel))).
-
-3.1) 
-
-4) Why chrome requires winhttp.dll?
-Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows versions before Windows 2000 SP3 and Windows XP SP1 in order for Chrome to work.
-winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1. Applies to all versions of Chrome.
-
-5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
-Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DLL, and if attempted to load Chrome 0.3 without wrappers on Windows 2000, the program will crash with "Whoa! Google Chrome has crashed. Restart now?"
-
-6) Why Chrome 50-51+ broken for NT 5.x?
- 6.1) For Chromium 50.0.2661.0 (r378030) through Chromium 51.0.26xx, added InitOnce functions which makes it partially broken for Windows NT 5.x if you manage getting it to launch by changing the function from "InitOnceExecuteOnce" to "InterlockedChange" on chrome.dll and chrome_child.dll.
- 6.2) For Chrome 51 and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
-
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
 
