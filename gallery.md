@@ -16,12 +16,13 @@ Google Chrome 49 on Windows 2000 SP4 + without Extended Kernel! (but it is extre
 
 <img width="640" height="400" alt="VirtualBox_Windows XP RC 1 Build 2475_13_02_2026_19_23_08" src="https://github.com/user-attachments/assets/2d554406-168d-4170-89db-29707b4ab57e" />
 
-Google Chrome 49 on Windows XP build 2475!
+<img width="640" height="400" alt="VirtualBox_Windows XP build 2474_15_02_2026_16_10_43" src="https://github.com/user-attachments/assets/e83a8549-9c87-4242-910a-19249ef43a7e" />
 
-<img width="640" height="400" alt="VirtualBox_Whistler 2481_26_10_2025_23_22_11" src="https://github.com/user-attachments/assets/bc171f62-19b4-4f26-85a0-9f47040e60a8" />
+Chromium 50.0.2661.0 (r377898) on Windows XP build 2474!
 
-Google Chrome 49 on Windows XP build 2481!
+<img width="640" height="400" alt="VirtualBox_Windows XP build 2474_15_02_2026_16_12_49" src="https://github.com/user-attachments/assets/5960630f-a65e-4caa-b51d-a19c4341494c" />
 
-<img width="640" height="400" alt="Google Chrome 53 on Windows Vista build 5360!" src="https://github.com/user-attachments/assets/85a4fe8f-95ac-4cda-9c68-bc14538ae039" />
+Google Chrome 49 on Windows XP build 2474!
+
 
 Google Chrome 53 on Windows Vista build 5360!
