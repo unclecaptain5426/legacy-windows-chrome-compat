@@ -28,6 +28,12 @@ As seen in Chromium 29.0.1529.0 (r203847) through early Chromium 55 builds
 
 This message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
 
+<img width="340" height="369" src="https://github.com/user-attachments/assets/113c6710-4136-4e52-9c95-867e54609440" />
+
+Chrome 49.0.2623.112 on Windows Whistler build 2474 showing the settings stored on a network drive message
+
+Settings stored on a network drive bug on Whistler builds 2410-36xx
+
 # NTP DESIGN
 <img width="525" height="476" src="https://github.com/user-attachments/assets/0c4df989-e0f3-4693-8bc5-9bdee241b799" />
 
