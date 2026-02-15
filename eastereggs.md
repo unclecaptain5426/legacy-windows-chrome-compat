@@ -12,11 +12,10 @@ Incognito mode in Chromium 49.0.2578.0 (r362228)
 
 Appears from Chromium 49.0.2574.0 (r361518) - Chromium 49.0.2623.0 (r369729)
 
-It does resemble the final release (49.0.2623.75), but with Tahoma if on NT 5.x and Segoe UI if on NT 6.x. The font in the incognito notice was updated to Roboto in Chromium 49.0.2623.0 (r369747).
+It does resemble the final release (49.0.2623.75), but used with Tahoma if on NT 5.x and Segoe UI if on NT 6.x. The font in the incognito notice was updated to Roboto in Chromium 49.0.2623.0 (r369747).
 
 # MISCELLANEOUS
 
 <img width="561" height="113" alt="Chrome27-48" src="https://github.com/user-attachments/assets/05b1c6d2-b469-4083-ba1c-44502ab3cccd" />
 
 This message (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
-
