@@ -9,13 +9,17 @@
   Compatibility Notes
 
 # BUGS, QUIRKS, AND KNOWN LIMITATIONS
-Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
 
-If Internet Explorer 7 or 8 is installed on Windows XP RTM, you must have imm32.dll from XP SP3 on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
+## Early Builds of Chrome 6 / Chrome 5.0.375.127 Limitation for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
+Google Chrome 6.0.41x and up will not run on these builds, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
+
+## IE7/8 bug on XP RTM
+If Internet Explorer 7 or 8 is installed on Windows XP RTM, if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
 
 Firstly, Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds). Secondly, on some computers and virtualizers, if you use roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo (since it was hardcoded on Chrome 12.0.730 Dev) with something else on kernelxp.dll on Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475, it triggers an c0000094 exception, even though it is possible without trouble on Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475. On the other hand, as said above, when using Chrome 33 - 49 on Windows Whistler Pre-RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
 
-Builds Windows Longhorn build 4093 through Windows Vista build 5356 has limited Chrome versions to 4.1.249.1064 Stable and 5.0.375.17 Beta. Chrome 5.0.375.23 Beta and up will not run on Longhorn build 4093 through Vista build 5356 due to the debug.log saying "A device attached to the system is not functioning".
+## Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Limitation for Windows Longhorn build 4093 through Windows Vista Beta 2 Build 5356
+Chrome 5.0.375.23 Beta and up will not run on these builds due to kernel constraints.
 
 # NOTES
 
