@@ -12,7 +12,7 @@ Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Wind
 
  Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
 
-And Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
+And Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
@@ -25,13 +25,14 @@ Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version
  Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
 Chrome 50.0.2661.102; but 50.0.2661.0 (r377898) / 49.0.2623.112 is recommended (and 34.0.1847.137 for no SSE2) is the last Chrome version observed by the community to run on Windows XP SP1 Build 2600.1050 (using compatibility wrappers), and on certain Windows Longhorn builds up to 4088 under experimental conditions. If on Windows XP Pre-RC 2 build 2517 (2517.main.010713-1717) through Windows XP RTM with Updates (xpclnt_qfe.021108-2107), it is recommended to use the files from XP SP1.
+
 If on Windows 2000 with Extended Kernel, ensure you have InitOnce functions enabled to have Chrome 50 working properly.
 
- Chrome 49.0.2623.112 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but problems are found that the browser crashes after file downloading on some file extension is complete. Browservice usage is recommended.
+ Chrome 49.0.2623.112 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but problems are found that the browser crashes after file downloading on some file extension is complete. IDM or downloading from Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / Chrome 32.0.1700.107 Stable is recommended.
 
- Chrome 50.0.2661.102 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but it is unstable even if using just Browservice, rather than the core itself. On the other hand, Chrome 50.0.2661.102 can run on Windows XP Pre-   RC 2 build 2517 (2517.main.010713-1717) through Windows Server 2003 SP2, but the browser itself will freeze if loading any most webpages or chrome://downloads is triggered, so using Browservice with it is recommended.
+ Chrome 50.0.2661.102 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but it is unstable even if using just Browservice, rather than the core itself, as said above Chromium . On the other hand, Chrome 50.0.2661.102 can run on Windows XP Pre-RC 2 build 2517 (2517.main.010713-1717) through Windows Server 2003 SP2, but the browser itself will freeze if loading any most webpages or chrome://downloads is triggered, so using Browservice with it is recommended.
 
- Chrome 50 on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
+ Chromium 50.0.2661.0 (r378023) through early Chromium 51 builds on Windows XP/2003 without One-Core API is not impossible but it can be unstable.
 
 Chrome 53.0.2785.143 - is the last Chrome version observed by the community to run on Windows Vista build 5360 (using kernel API swaps), and on certain Windows Vista builds and Windows 7 pre-Beta builds up to 68xx or 69xx builds under experimental conditions.
 
@@ -57,14 +58,14 @@ Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally f
 
 4) Why chrome requires winhttp.dll?
 Note: winhttp.dll must be inserted to system32 or the chrome folder for Windows versions before Windows 2000 SP3 and Windows XP SP1 in order for Chrome to work.
-winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1.
+winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows 2000 SP4 UR1. Applies to all versions of Chrome.
 
 5) Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
 Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DLL, and if attempted to load Chrome 0.3 without wrappers on Windows 2000, the program will crash with "Whoa! Google Chrome has crashed. Restart now?"
 
-6) Why Chrome 51+ is hard-blocked for NT 5.x entirely without excessive patching?
-
-
+6) Why Chrome 50-51+ broken for NT 5.x?
+ 6.1) For Chromium 50.0.2661.0 (r378030) through Chromium 51.0.26xx, added InitOnce functions which makes it partially broken for Windows NT 5.x if you manage getting it to launch by changing the function from "InitOnceExecuteOnce" to "InterlockedChange" on chrome.dll and chrome_child.dll.
+ 6.2) For Chrome 51 and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
 
 # BUGS
 Google Chrome 6 - 32 is not known to work on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
