@@ -102,7 +102,7 @@ All binaries must be obtained by the user from official sources only. This guide
 
 # WORD OF CAUTION
 
-Please do not use an older version of Google Chrome as a daily driver. It must be for testing purposes only. Using Browservice in a Chrome browser is recommended.
+Please do not use an older version of Google Chrome for reasons other than using Browservice.
 
 # REFERENCES
 * https://claraincorporated.blogspot.com/2025/12/windows-xp-rtm-in-2026-unofficial-guide.html
