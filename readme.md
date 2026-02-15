@@ -28,7 +28,7 @@ Chrome 50.0.2661.102; but 50.0.2661.0 (r377898) / 49.0.2623.112 is recommended (
 
 If on Windows 2000 with Extended Kernel, ensure you have InitOnce functions enabled to have Chrome 50 working properly.
 
- Chrome 49.0.2623.112 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but problems are found that the browser crashes after file downloading on some file extension is complete. IDM or downloading from Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / Chrome 32.0.1700.107 Stable is recommended.
+ Chrome 49.0.2623.112 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but problems are found that the browser crashes after file downloading on some file extension is complete. IDM / downloading from Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / Chrome 32.0.1700.107 Stable or earlier is recommended.
 
  Chrome 50.0.2661.102 can run on Windows XP RC 1 builds 2474 through 2509 (using compatibility wrappers), but it is unstable even if using just Browservice, rather than the core itself, as said above Chromium . On the other hand, Chrome 50.0.2661.102 can run on Windows XP Pre-RC 2 build 2517 (2517.main.010713-1717) through Windows Server 2003 SP2, but the browser itself will freeze if loading any most webpages or chrome://downloads is triggered, so using Browservice with it is recommended.
 
