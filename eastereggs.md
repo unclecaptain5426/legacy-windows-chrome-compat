@@ -14,6 +14,10 @@ Appears from Chromium 49.0.2574.0 (r361518) - Chromium 49.0.2623.0 (r369729)
 
 It does resemble the stable release, but the font is used with Tahoma if on NT 5.x and Segoe UI if on NT 6.x. The font in the incognito notice was updated to Roboto in Chromium 49.0.2623.0 (r369747).
 
+# INTERFACE DESIGN
+
+
+
 # MISCELLANEOUS
 
 <img width="561" height="113" alt="Chrome27-48" src="https://github.com/user-attachments/assets/05b1c6d2-b469-4083-ba1c-44502ab3cccd" />
