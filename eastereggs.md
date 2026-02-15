@@ -21,7 +21,6 @@ It does resemble the stable release, but the font is used with Tahoma if on NT 5
 This message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
 
 # NTP DESIGN
-
-![Chrome25](https://github.com/user-attachments/assets/0c4df989-e0f3-4693-8bc5-9bdee241b799)
+<img width="525" height="476" src="https://github.com/user-attachments/assets/0c4df989-e0f3-4693-8bc5-9bdee241b799" />
 
 Chromium 25.0.1348.0 (r170751) is the first Chromium build to include the preliminary version of an renovated New Tab page design.
