@@ -23,7 +23,7 @@ Chrome 33.0.1712.2 Dev or later can launch, but it is unstable on Windows 2000 S
 
 ## IE7/8 quirk on XP RTM
 ### For Chrome 23.0.1255.0 Dev or later
-If Internet Explorer 7 or 8 is installed on Windows XP RTM, if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
+If Internet Explorer 7 or 8 is installed on Windows XP RTM, and if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
 
 # NOTES
 
