@@ -6,6 +6,8 @@ Incognito mode in Chromium 36.0.1967.0 (r267197)
 
 Appears from Chromium 36.0.1967.0 (r267197) - Chromium 49.0.2574.0 (r361485)
 
+It first appeared in Chromium 36.0.1965.0 (r266861), but the icon was unavailable until Chromium 36.0.1967.0 (r267197).
+
 <img width="525" height="476" alt="Early Chrome 49 builds - Incognito with new redesign #2 (with Tahoma if on NT 5.x, and Segoe UI if on NT 6.x)" src="https://github.com/user-attachments/assets/8adb2c32-006d-44d9-b2bd-8f6aa14816b0" />
 
 Incognito mode in Chromium 49.0.2578.0 (r362228)
