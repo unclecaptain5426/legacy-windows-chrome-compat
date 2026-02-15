@@ -16,7 +16,9 @@ It does resemble the stable release, but the font is used with Tahoma if on NT 5
 
 # INTERFACE DESIGN
 
+<img width="1050" height="77" alt="Chromium29" src="https://github.com/user-attachments/assets/77e5dc2d-cca6-402f-a3a9-31dff4e01897" />
 
+As seen in Chromium 29.0.1529.0 (r203847) through early Chromium 55 builds
 
 # MISCELLANEOUS
 
