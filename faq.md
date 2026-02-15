@@ -2,12 +2,12 @@
 
 Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below) for some computers and virutalizers. Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094) for some computers and virutalizers.
 
-# Why Chrome 23-32 require any additional DLLs for Windows 2000 without Extended Kernel / and Chrome 23-49 requires any additional files for Windows XP build 2481 (and 2474-2475 for GetNativeSystemInfo swap with GetSystemInfo)?
+# Why Chrome 23-32 require any additional DLLs for Windows 2000 without Extended Kernel through Windows Whistler Beta 2 Build 2469 / and Chrome 23-49 requires any additional files for Windows XP build 2481 (and 2474-2475 for GetNativeSystemInfo swap with GetSystemInfo) through Windows .NET Server Beta 3 Build 3590?
 
 Because starting at Chrome 23.0.1255.0 Dev, without any minor modifications like these files for Windows XP RTM/2000 SP4 without KernelEx, Chrome starts to lose functionally for the address bar due to imm32.dll and msftedit.dll changes, and by Chrome 24, Chrome will not start on Windows XP RTM/2000 SP4 without KernelEx without minor modifications. Therefore, on Windows XP RTM.
 
  ## Chrome 23 - 28
- You must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work (for Windows 2000)
+ You must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work .
 
  ## Chrome 29 - 32
  Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
