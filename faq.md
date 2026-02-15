@@ -6,9 +6,11 @@ Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fal
 
 Because starting at Chrome 23.0.1255.0 Dev, without any minor modifications like these files for Windows XP RTM/2000 SP4 without KernelEx, Chrome starts to lose functionally for the address bar due to imm32.dll and msftedit.dll changes, and by Chrome 24, Chrome will not start on Windows XP RTM/2000 SP4 without KernelEx without minor modifications. Therefore, on Windows XP RTM.
 
-## For Chrome 24-28...You must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work (for Windows 2000)
+ ## Chrome 24 - 28
+ You must have the imm32.dll and msftedit.dll from Windows 2000 Extended Kernel, or the address bar will not work (for Windows 2000)
 
-## For Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
+ ## Chrome 29 - 32
+ Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
    
 # Why chrome_elf.dll does not like Windows XP RTM/2000 SP4?
 
