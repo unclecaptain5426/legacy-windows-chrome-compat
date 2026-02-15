@@ -23,4 +23,4 @@ This message dialog box for an example in the image (as seen in Chromium 27.0.14
 # NTP DESIGN
 <img width="525" height="476" src="https://github.com/user-attachments/assets/0c4df989-e0f3-4693-8bc5-9bdee241b799" />
 
-Chromium 25.0.1348.0 (r170751) is the first Chromium build to include the preliminary version of an renovated New Tab page design.
+Chromium 25.0.1348.0 (r170751) is the first Chromium build to include the preliminary version of an renovated New Tab page design, but it is not enabled by default.
