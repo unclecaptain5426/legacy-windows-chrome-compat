@@ -18,5 +18,6 @@ Chromium 50.0.2661.0 (r377898) on Windows XP build 2474!
 
 Google Chrome 49 on Windows XP build 2474!
 
+<img width="640" height="400" alt="Google Chrome 53 on Windows Vista build 5360!" src="https://github.com/user-attachments/assets/85a4fe8f-95ac-4cda-9c68-bc14538ae039" />
 
 Google Chrome 53 on Windows Vista build 5360!
