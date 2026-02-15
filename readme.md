@@ -10,16 +10,19 @@
 
 # BUGS, QUIRKS, AND KNOWN LIMITATIONS
 
-## Early Builds of Chrome 6 / Chrome 5.0.375.127 Limitation for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
-Google Chrome 6.0.41x and up will not run on these builds, due to an hardcoded SystemFunction036 on ADVAPI32.DLL.
+## Version Limitations
 
-## IE7/8 bug on XP RTM
+### Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Limitation
+Chrome 5.0.375.23 Beta and up will not run on Windows Longhorn build 4093 through Windows Vista Beta 2 Build 5356 due to kernel constraints.
+
+### Early Builds of Chrome 6 / Chrome 5.0.375.127 Limitation 
+Google Chrome 6.0.41x and up will not run on Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296, due to an hardcoded SystemFunction036 on ADVAPI32.D.LL and a function that needs an unofficial for NTDLL.DLL.
+
+### Chrome 33.0.1707.0 Dev / Chrome 32.0.1700.107 Limitation 
+Google Chrome 33 - 49 can launch, but it does not work properly on Windows 2000 SP4 + Update Rollup 1 (without Extended Kernel) when using advapixp.dll, kernelxp.dll, and userxp.dll wrappers by BWC / Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds).
+
+## IE7/8 quirk on XP RTM
 If Internet Explorer 7 or 8 is installed on Windows XP RTM, if you have an imm32.dll from another version, it must be on C:\WINDOWS instead of C:\WINDOWS\SYSTEM32, and you also need to edit the registry to change the userinit value to C:\WINDOWS\explorer.exe.
-
-Firstly, Google Chrome 33 - 49 is not known to work very well on Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds). Secondly, on some computers and virtualizers, if you use roytam1's kernelxp.dll wrappers and attempted to replace GetNativeSystemInfo (since it was hardcoded on Chrome 12.0.730 Dev) with something else on kernelxp.dll on Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475, it triggers an c0000094 exception, even though it is possible without trouble on Windows Whistler Pre-RC 1 Build 2474 & Windows Whistler Pre-RC 1 Build 2475. On the other hand, as said above, when using Chrome 33 - 49 on Windows Whistler Pre-RC 1 Build 2481 - Windows Whistler RC 1 Build 2509, downloading executable files leads to Chrome crashing (because the NTDLL.DLL from XP SP1 does not work on Windows XP builds prior to RC 2 build 2517).
-
-## Chrome 5.0.375.17 Dev / Chrome 4.1.249.1064 Limitation for Windows Longhorn build 4093 through Windows Vista Beta 2 Build 5356
-Chrome 5.0.375.23 Beta and up will not run on these builds due to kernel constraints.
 
 # NOTES
 
