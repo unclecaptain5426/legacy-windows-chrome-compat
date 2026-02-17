@@ -1,4 +1,8 @@
-| Header 1 | Header 2 | Header 3 |
-| :--- | :---: | ---: |
-| Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 |
-| Row 2 Col 1 | Row 2 Col 2 | Row 2 Col 3 |
+| Chrome Version | Function/DLL file) | Windows Build | Notes |
+| :--- | :---: | :---: | ---:
+| 0.2.152.0 | SystemFunction036 (ADVAPI32.DLL) | Introduced in Windows XP build 2410 | Removed Windows 2000 compatibility without wrappers.
+| 5.0.317.0 | WTSQueryUserToken (WTSAPI32.DLL) | Introduced in Windows XP build 2481 | 
+| 5.0.366.0 | CancelChangeIPNotify (IPHLPAPI.DLL) | Introduced in Windows XP SP2 builds | 
+| 21.0.1145.0 | EncodePointer/DecodePointer (KERNEL32.DLL) | Introduced in Windows XP build 2600.2055 | Removed Windows XP SP1 compatibility without wrappers.
+| 23.0.1255.0 | ImmDisableTextFrameService (IMM32.DLL) | Introduced in Windows .NET Server build 3604 (but 3590 was incomplete) | Requires workarounds for Windows XP RTM/2000 SP4
+| 50.0.2661.0 | InitOnce functions (KERNEL32.DLL) | Introduced in Windows Vista build 5360 |
