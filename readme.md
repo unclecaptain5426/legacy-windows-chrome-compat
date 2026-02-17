@@ -47,7 +47,7 @@ It can only work at least Windows XP build 2517 unofficially
 
 https://github.com/ttalvitie/browservice
 
-If you want the modern web for older Chromium browsers
+If you want the modern web for older Chromium browsers (Ideal for Windows 2000 Beta 3 Build 1964 and later with using Google Chrome).
 
 # DISCLAIMER
 
