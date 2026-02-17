@@ -8,6 +8,10 @@
 
   Compatibility Notes
 
+* https://github.com/unclecaptain5426/legacy-windows-chrome-compat/blob/main/dependencies.md
+
+  Dependencies
+
 # BUGS, QUIRKS, AND KNOWN LIMITATIONS
 
 ## Version Limitations
