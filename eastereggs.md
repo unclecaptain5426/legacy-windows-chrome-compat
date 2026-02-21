@@ -26,8 +26,16 @@ As seen in Chromium 29.0.1529.0 (r203847) through early Chromium 55 builds
 
 <img width="561" height="113" alt="Chrome27-48" src="https://github.com/user-attachments/assets/05b1c6d2-b469-4083-ba1c-44502ab3cccd" />
 
-This message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
+This rare error message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
 
+-----------------------------------------------
+| chrome.exe                        |x| |
+-----------------------------------------
+| {Error Message}                       |
+| Example message goes here.            |
+|                                       |
+|                 | OK |                |
+-----------------------------------------
 <img width="340" height="369" src="https://github.com/user-attachments/assets/113c6710-4136-4e52-9c95-867e54609440" />
 
 Chrome 49.0.2623.112 on Windows Whistler build 2474 showing the settings stored on a network drive message
