@@ -35,6 +35,9 @@ Because After Chrome 36, Chrome 37 has introduced a new sandbox, which breaks us
  ## For Chrome 51+ on NT 5.x
   For Chromium 51.0.2666.0 (r378857) and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
 
+| Comparsion |
+| :--- | :---: |
+
 <img width="400" height="250" alt="VirtualBox_Terabyte (Windows 2000)_20_02_2026_23_36_30" src="https://github.com/user-attachments/assets/564c0840-c51f-445d-92da-dda236abce4f" />
 
 Chromium 51.0.2665.0 (r378578) on Windows 2000 with Extended Kernel!
