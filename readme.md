@@ -26,7 +26,7 @@ Google Chrome 6.0.41x and up will not run on Windows 2000 Beta 3 Build 1964 - Wi
 Chrome 33.0.1712.2 Dev or later can launch, but it is unstable on Windows 2000 SP4 + Update Rollup 1 + All Updates (without Extended Kernel) when using advapixp.dll, kernelxp.dll, and userxp.dll wrappers by BWC / Windows Whistler Beta 1 Build 2410 - Windows Whistler Beta 2 Build 2469 when using kernelxp.dll wrappers by BWC (because it starts but freezes within seconds) due to chrome_elf.dll being stricted.
 
 ### Chrome 51-58 blocked on NT 5.x
-Because Chrome 51-58 doesn't work on NT 5.x, you must need to use NNN4NT5 to tweak it to Vista or higher, but it requires at least Microsoft Windows XP RTM with One-Core API or newer.
+Because Chrome 51-58 doesn't work on NT 5.x, you must need to use NNN4NT5 or Windows Compatibility Tool to tweak it to Vista or higher, but it requires at least Microsoft Windows XP RTM with One-Core API or newer.
 
 ## IE7/8 quirk on XP RTM
 ### For Chrome 23.0.1255.0 Dev or later
