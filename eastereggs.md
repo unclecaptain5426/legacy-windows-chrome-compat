@@ -28,7 +28,8 @@ As seen in Chromium 29.0.1529.0 (r203847) through early Chromium 55 builds
 
 This rare error message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
 
-For an example: <img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/4ffd537a-5420-476e-9693-9389935b3fa8" />
+For an example: 
+<img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/4ffd537a-5420-476e-9693-9389935b3fa8" />
 
 <img width="340" height="369" src="https://github.com/user-attachments/assets/113c6710-4136-4e52-9c95-867e54609440" />
 
