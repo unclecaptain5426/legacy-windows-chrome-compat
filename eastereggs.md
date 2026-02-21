@@ -32,6 +32,8 @@ For an example:
 
 <img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/4ffd537a-5420-476e-9693-9389935b3fa8" />
 
+
+
 <img width="340" height="369" src="https://github.com/user-attachments/assets/113c6710-4136-4e52-9c95-867e54609440" />
 
 Chrome 49.0.2623.112 on Windows Whistler build 2474 showing the settings stored on a network drive message
