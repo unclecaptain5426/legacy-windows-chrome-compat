@@ -26,11 +26,11 @@ winhttp.dll must be from at least Windows Server 2003 RTM/Windows XP SP2/Windows
 # Why wrappers needed on Chrome versions after 0.2.149.30 for Windows 2000?
 Because of the hardcoded SystemFunction036/RtlGenRandom functions on ADVAPI32.DLL, and if attempted to load Chrome 0.3 without wrappers on Windows 2000, the program will crash with "Whoa! Google Chrome has crashed. Restart now?"
 
-# Why Chrome 37+ requires --no-sandbox for Windows 2000 with Extended Kernel?
+# Why Chrome 37-50 requires --no-sandbox for Windows 2000 with Extended Kernel?
 Because After Chrome 36, Chrome 37 has introduced a new sandbox, which breaks usage for Windows 2000 without Extended Kernel without adding the --no-sandbox parameter.
 
 # Why Chrome 50-51+ broken for NT 5.x?
  ## For Chrome 50 on NT 5.x
-  For Chromium 50.0.2661.0 (r378030) through Chromium 51.0.26xx, added InitOnce functions which makes it partially broken for Windows NT 5.x if you manage getting it to launch by changing the function from "InitOnceExecuteOnce" to "InterlockedChange" on chrome.dll and chrome_child.dll.
+  For Chromium 50.0.2661.0 (r378030) through Chromium 51.0.2665 (r378578), added InitOnce functions which makes it partially broken for Windows NT 5.x if you manage getting it to launch by changing the function from "InitOnceExecuteOnce" to "InterlockedChange" on chrome.dll and chrome_child.dll.
  ## For Chrome 51+ on NT 5.x
-  6.2) For Chrome 51 and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
+  For Chromium 51.0.2666 (r378857) and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
