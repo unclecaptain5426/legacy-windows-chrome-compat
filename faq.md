@@ -34,7 +34,11 @@ Note: For Chromium builds from Chromium 37.0.2036.0 (r275673) to Chromium 51.0.2
  ## For Chrome 50 on NT 5.x
   For Chromium 50.0.2661.0 (r378030) through Chromium 51.0.2665.0 (r378578), added InitOnce functions which makes it partially broken for Windows NT 5.x if you manage getting it to launch by changing the function from "InitOnceExecuteOnce" to "InterlockedChange" on chrome.dll and chrome_child.dll.
  ## For Chrome 51+ on NT 5.x
-  For Chromium 51.0.2666.0 (r378857) and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on Vista build 5360 or newer.
+  For Chromium 51.0.2666.0 (r378857) and up, Windows NT 5.x is hardly-blocked without excessive patching, because of major rewrites, and will unofficially work on:
+ 
+ Windows XP Release-Candidate builds with One-Core API with the compatibility mode set to Vista SP2 via NNN4NT5 or WCT
+ 
+ Windows Vista Beta 2 build 5360 or newer
 
 ### In Comparision
 
