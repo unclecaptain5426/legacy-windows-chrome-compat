@@ -8,11 +8,6 @@ Because starting at Chrome 23.0.1255.0 Dev, without any minor modifications like
  ## Chrome 29 - 32
  Chrome versions 29-32... You must have the imm32.dll from Windows 2000 Extended Kernel, or Chrome will not launch.
 
- ##
- ### EXTRA: Why Chrome 12.0.730+ Dev hardcoded GetNativeSystemInfo for some computers and virutalizers?
-
-Because Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable is the last to use a fallback function like GetStdHandle or something for GetNativeSystemInfo (especially on Windows XP Pre-RC 1 build 2475 and below) for some computers and virutalizers. Because starting Chrome 12.0.730+ Dev, if GetNativeSystemInfo is replaced with something else, it will trigger an exception CPU divide-by-zero (0xc0000094) for some computers and virutalizers.
-   
 # Why chrome_elf.dll does not like Windows XP RTM/2000 SP4?
 
 Because starting at Chrome 33.0.1712.2 Dev, Chrome starts to lose functionally for Windows 2000 SP4 without Extended Kernel, due to chrome_elf.dll being introduced, while it is  still unofficially possible to get it to work on Windows 2000 SP4 without Extended Kernel, but it will freeze under normal use. So, because later versions like starting Chromium 33.0.1709.0 (r234803) require at least Microsoft Windows XP build 2474 (but Microsoft Windows XP build 2517 or later is recommended especially to get it fully working is by swapping the ntdll.dll with the one from Microsoft Windows XP SP1, and with just using kernelxp.dll wrappers unofficially + additional XP SP3 DLLs (such as iphlpapi.dll, icmp.dll, imm32.dll (if on 2474-2509, then its from Windows 2000 Extended Kernel))).
