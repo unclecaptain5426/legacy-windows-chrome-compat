@@ -14,7 +14,7 @@ wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2
 
  Chrome 33-50 on Windows 2000 without Extended Kernel and Windows XP Beta 2 builds is not impossible but it can be unstable.
 
-And Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
+And Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469) by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
