@@ -73,13 +73,11 @@ Please do not use an older version of Google Chrome (or Chromium) for reasons ot
 
 * Chrome 0.2 and newer for Windows 2000 Beta 3 Build 1946 and older
 
+* Chrome 6 and newer for Windows Whistler Beta 1 Build 2296 and older
+
 * Chrome 5 and newer for builds Windows Longhorn build 4093 through Windows Vista build 5356
 
-* Chrome 0.3 and newer for Windows Whistler Beta 1 Build 2296 and older - but the exception is up to Chrome 5.0.375.127 Stable by using advapixp.dll and kernelxp.dll by blackwingcat (with API swaps to the wrapper)
-
-* Chrome 12 and newer for Windows XP RC 1 Build 2475 and older (for some computers and virtualizers) - but the exception for some computers and virtualizers is up to Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable by using kernelxp.dll by blackwingcat (with API swaps to the wrapper) - However Chrome 33 through 49 see to work fine on Windows XP RC 1 Build 2474 & 2475, but not on some computers and virtualizers.
-
-* Chrome 33 and newer for Windows 2000 without Extended Kernel (with newer wrappers instead of the BWC's wrappers from 2012)
+* Chrome 33 and newer for Windows 2000 without Extended Kernel and Windows XP Beta 2 builds (with newer wrappers instead of the BWC's wrappers from 2012)
 
 # EXTRAS
 
