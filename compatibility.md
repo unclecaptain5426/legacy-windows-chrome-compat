@@ -2,23 +2,23 @@ Chrome 5.0.375.17 (Beta) and Chrome 4.1.249.1064 (Stable) are the latest Chrome 
 
 Chrome 5.0.375.127 Stable - last unofficial version for Windows 2000 Beta 3 Build 1964 - Windows Whistler Beta 1 Build 2296
 
-Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Windows 2000 SP4 without Extended Kernel by using:
+Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - last unofficial version for Windows 2000 SP4 without Extended Kernel and Windows XP Beta 2 (builds 2410-2469) by using:
  
- advapixp.dll. kernelxp.dll, and userxp.dll by blackwingcat 
- 
- wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2000 Extended Kernel. 
+ advapixp.dll. kernelxp.dll, and userxp.dll by blackwingcat (Windows 2000 SP4 without Extended Kernel)
 
- Chrome 33-50 on Windows 2000 without Extended Kernel is not impossible but it can be unstable.
+ kernelxp.dll by blackwingcat (Windows XP Beta 2 builds 2410-2469) only
+ 
+wtsapi32.dll, winsta.dll, ws2_32.dll, imm32.dll, and iphlpapi.dll from Windows 2000 Extended Kernel. (Windows 2000 SP4 without Extended Kernel)
+
+ wtsapi32.dll, winsta.dll, ws2_32.dll, and imm32.dll from Windows 2000 Extended Kernel. (Windows XP Beta 2 builds 2410-2469)
+
+ Chrome 33-50 on Windows 2000 without Extended Kernel and Windows XP Beta 2 builds is not impossible but it can be unstable.
 
 And Chromium 33.0.1709.0 (r234775) / Chrome 33.0.1707.0 Dev / 32.0.1700.107 Stable - also the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2469 (also Windows XP RC 1 Build 2474 & 2475 for some computers and virutalizers) by using:
  
  kernelxp.dll by blackwingcat (with API swaps to the wrapper)
  
  wtsapi32.dll, winsta.dll, imm32.dll from Windows 2000 Extended Kernel
-
-or otherwise,
-
-Chrome 12.0.729 Dev / Chrome 11.0.696.77 Stable - is the last unofficial version for Windows Whistler Late Beta 1 Build 2410 - Windows Whistler Pre-RC 1 Build 2475 (with API swaps or kernelxp.dll by roytam1) for some computers and virutalizers.
 
  Since chrome_elf.dll was added on Chrome 33.0.1712.2 Dev, Chrome 33.0.1750.xxx-50.0.2661.xxx is unofficially possible with using bwc's wrappers, but it freezes within seconds.
 
