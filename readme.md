@@ -71,7 +71,7 @@ Please do not use an older version of Google Chrome (or Chromium) for reasons ot
 
 * Chrome 5 and newer for builds Windows Longhorn build 4093 through Windows Vista build 5356
 
-* Chrome 33 and newer for Windows 2000 without Extended Kernel and Windows XP Beta 2 builds (with newer wrappers instead of the BWC's wrappers from 2012)
+* Chrome 33 and newer for Windows 2000 without Extended Kernel (with newer wrappers instead of the BWC's wrappers from 2012)
 
 # EXTRAS
 
