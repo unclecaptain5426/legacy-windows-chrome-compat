@@ -1,3 +1,3 @@
 Did you know...
 
- ...that "Whoa! Google Chrome (or Chromium) has crashed. Relaunch now?" dialog box has appeared from Chrome 0.2 Beta and kept until Chromium 49.0.2578.0 (r362253) from November 30, 2015?
+ ...that "Whoa! Google Chrome (or Chromium) has crashed. Relaunch now?" dialog box has appeared from Chrome 0.2 Beta and kept until Chromium 49.0.2578.0 (r362269) from November 30, 2015?
