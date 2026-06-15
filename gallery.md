@@ -6,7 +6,7 @@ Google Chrome 5.0.375.17 Dev on Windows Longhorn build 5048!
 
 Google Chrome 32 on Windows 2000 SP4 + without Extended Kernel!
 
-<img width="640" height="400" alt="VirtualBox_Whistler 2410_27_01_2026_23_58_03" src="https://github.com/user-attachments/assets/5000de18-0335-4746-849c-d9c48734abaf" />
+<img width="640" height="480" alt="VirtualBox_Whistler 2410 (test)_05_06_2026_08_54_27" src="https://github.com/user-attachments/assets/b1479a2f-997c-4ae7-8719-f761098e2dc2" />
 
 Google Chrome 49 on Windows XP build 2410!
 
