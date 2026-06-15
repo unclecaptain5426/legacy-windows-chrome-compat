@@ -26,7 +26,7 @@ As seen in Chromium 29.0.1529.0 (r203847) through early Chromium 55 builds
 
 <img width="561" height="113" alt="Chrome27-48" src="https://github.com/user-attachments/assets/05b1c6d2-b469-4083-ba1c-44502ab3cccd" />
 
-This rare error message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362228)
+This rare error message dialog box for an example in the image (as seen in Chromium 27.0.1438.0 (r187517) Dev through Chromium 49.0.2578.0 (r362253)
 
 <img width="380" height="104" alt="image" src="https://github.com/user-attachments/assets/4ffd537a-5420-476e-9693-9389935b3fa8" />
 
